@@ -5,6 +5,4 @@ __A Sinatra interface to a Monte Carlo-based Farkle AI.__
 `rake start`
 
 # Usage
-Roll the dice, select which dice you rolled on the UI, then click `Continue?`. 
-
-Continue rolling until you are informed to stop.
+Roll the dice, select which dice you rolled on the UI, then click `Continue?`.  Continue rolling until you are informed to stop.
