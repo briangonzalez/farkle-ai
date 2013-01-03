@@ -1,0 +1,21 @@
+
+#main{
+
+  .dice{
+
+    @include clearfix;
+    @include span-columns(12,12);
+
+    a.button{
+      background: $lightgrey - 30;
+      @include span-columns(2,12);
+    }
+
+    & a.button:last-child{
+      @include span-columns(2 alpha,12);
+      margin-right: 0; 
+    }
+
+  }
+
+}

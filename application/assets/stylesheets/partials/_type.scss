@@ -1,0 +1,26 @@
+
+//  Give all of our headings their own style.
+
+@for $i from 1 through 6{
+  h#{$i}.tertiary{ 
+    font-family: $tertiary-heading-font;
+    font-weight: 400; 
+    font-style: italic;
+  }
+}
+
+h2.section{
+  font-weight:      400;
+  letter-spacing:   2px;
+}
+
+h2.your-dice{
+  // margin-top: $base-line-height;
+  @include clearfix;
+  display: block;
+}
+
+h1.output{
+  margin-top: $base-line-height;
+  text-align: center;
+}

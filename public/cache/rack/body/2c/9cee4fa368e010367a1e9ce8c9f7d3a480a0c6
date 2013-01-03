@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> >  <html class="no-js"> <![endif]-->
+<head>
+  <meta charset='utf-8'>
+  <link href='/assets/favicon-4aeb694abe4641ce97de976dcfaf80d4.ico' rel='shortcut icon'>
+  <title>a simple sinatra starter | origin</title>
+  <meta content='Meaningful description.' name='description'>
+  <meta content='width=device-width' name='viewport'>
+  <link href='/assets/style-a62fb5f31643a2195092a53eb7dfcdcd.css' media='all' rel='stylesheet'>
+  <!-- Google Web Fonts, use 'em.. -->
+  <link href='//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Montserrat:400,700|Arvo:400,400italic|Sanchez:400italic,400' media='all' rel='stylesheet'>
+  <!-- More ideas for your <head> here: h5bp.com/docs/#head-Tips -->
+  <!--  -->
+  <!-- Modernizr enables HTML5 elements and feature detects; -->
+  <!-- For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <!-- For Modernizr.load to work, check the box for it on the build page -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
+  <!--[if lt IE 9]>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js'></script>
+  <![endif]-->
+</head>
+<body>
+  <!--[if lt IE 7]>
+    <p class='chromeframe'>
+      You are using an outdated browser.
+      <a href='http://browsehappy.com/'>
+        Upgrade your browser today
+      </a>
+      or
+      <a href='http://www.google.com/chromeframe/?redirect=true'>
+        install Google Chrome Frame
+      </a>
+      to better experience this site.
+    </p>
+  <![endif]-->
+  <div class='container'>
+    <nav>
+      <input class='icon-chevron-down' href='#' type='checkbox'>
+      <ul class='menu-items'>
+        <li>
+          <a class='icon-home' href='/'>Home</a>
+        </li>
+        <li>
+          <a class='icon-sign-blank' href='/about'>About</a>
+        </li>
+        <li>
+          <a class='icon-phone' href='/contact'>Contact</a>
+        </li>
+        <li>
+          <a class='icon-twitter' href='http://twitter.com/brianmgonzalez'>Twitter</a>
+        </li>
+        <li>
+          <a class='icon-github' href='http://www.github.com/briangonzalez'>Github</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class='container'>
+    <header>
+      <h1>
+        origin
+        <div class='byline'>
+          a simple sinatra starter
+          <span class='tertiary'>by</span>
+          Brian G.
+        </div>
+      </h1>
+    </header>
+  </div>
+  <div class='container'>
+    <div id='main' role='main'>
+      <h2 class='section' id='what_is_origin'>What is origin?</h2>
+
+<p>This is your content, your meat &amp; potatoes. The <a href='http://www.w3.org/TR/2011/WD-html5-20110525/'>HTML5 spec</a> introduced the idea of <em>aria roles</em>, and all of your &#8220;content&#8221; has the aria role of <code>main</code>, which functions as the main content of a document.</p>
+
+<p><a class='button' href='http://www.w3.org/TR/2011/WD-html5-20110525/'><em>See</em> the HTML5 Spec</a></p>
+
+<p>This marks the content that is directly related to or expands upon the central topic of the document. The main role is a non-obtrusive alternative for &#8220;skip to main content&#8221; links, where the navigation option to go to the main content (or other landmarks) is provided by the user agent through a dialog or by assistive technologies. User agents SHOULD treat elements with the role of main as navigational landmarks. Within any document or application, the author SHOULD mark no more than one element with the main role.</p>
+
+<h2 class='section' id='blockquotes'>Blockquotes</h2>
+
+<p>Blockquotes are styled to be clean, readable, with a nice callout.</p>
+
+<blockquote>
+<p><em>We cannot teach people anything; we can only help them discover it within themselves.</em><br /><strong class='tertiary'>- Galileo</strong></p>
+</blockquote>
+
+<p>Then we continue on our rant.</p>
+
+<h2 class='section' id='code_blocks'>Code Blocks</h2>
+
+<p>Why not some example <a href='http://en.wikipedia.org/wiki/JavaScript'>JS</a>?</p>
+
+<pre><code>// let&#39;s look at some javascript&#x000A;$(document).ready(function(){&#x000A;  var say = &#39;word.&#39;;&#x000A;  console.log(say) // oops, no semicolon.&#x000A;});</code></pre>
+
+<p>See how I omitted that semi-colon there? Also, did I mention origin has baked in code highlighting using prettify JS?</p>
+
+<h3 id='this_is_a_normal_header'>This is a normal header</h3>
+
+<h3 class='tertiary' id='this_is_a_tertiary_header'>This is a tertiary header</h3>
+
+<p><em>This</em> is a paragraph with some <em>emphasized</em> text and some <strong>strong</strong> text, and how about a <a href='http://briangonzalez.org'>link</a>?</p>
+
+<h2 class='section' id='others_features'>Others features</h2>
+
+<p>Some other features include:</p>
+
+<ul>
+<li>Susy grid (hold shift for 300ms to toggle grid) <a href='http://susy.oddbird.net/'>?</a></li>
+
+<li>HTML5 boilerplate <a href='http://html5boilerplate.com/'>?</a></li>
+
+<li>Sass &amp; Compass <a href='http://sass-lang.com/'>?</a></li>
+
+<li>Markdown &amp; Haml <a href='http://daringfireball.net/projects/markdown/'>?</a></li>
+
+<li>Code highlighting <a href='http://code.google.com/p/google-code-prettify/'>?</a></li>
+
+<li>and more&#8230;</li>
+</ul>
+
+<h2 class='section' id='lets_keep_moving_the_web_forward'>Let&#8217;s keep moving the web forward</h2>
+
+<p>origin was built with ease-of-use in mind &#8211; bringing the best conventions from front to backend into a single Sinatra project. Use it if you like, move along if you don&#8217;t.</p>
+
+<p><a class='button' href='#'>Github</a> <a class='button' href='#'>Twitter</a></p>
+    </div>
+  </div>
+  <div class='container'>
+    <footer>
+  origin | © 2013
+</footer>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js'></script>
+<script src='/assets/app-67a6fac154f3759d0093ccd463bc6937.js'></script>
+<!-- Google Analytics -->
+<script>
+  //<![CDATA[
+    var _gaq=[['_setAccount', 'UX-XXXXXX'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  //]]>
+</script>
+  </div>
+</body>
